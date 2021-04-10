@@ -1,0 +1,7 @@
+{
+  "name": "pomelo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
