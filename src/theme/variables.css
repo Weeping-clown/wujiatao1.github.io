@@ -74,6 +74,10 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* --ion-tab-bar-color: orange; */
+  /* --ion-tab-bar-color-selected: orange;
+  --ion-tab-bar-background: #fff; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,4 +237,17 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+:root {
+  --ion-tab-bar-color-selected: orange;
+  --ion-tab-bar-background: #fff;
+  --ion-background-color: rgba(255, 166, 0, 1);
+}
+/* .ion-page {
+  background: #e7e7e7;
+} */
+ion-tab-bar {
+  border: none;
+  background: #fff;
 }
