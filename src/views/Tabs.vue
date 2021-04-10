@@ -1,6 +1,7 @@
 <template>
   <ion-page>
     <ion-tabs ref="tabs" @ionTabsDidChange="afterTabChange">
+      <!-- <ion-tab-bar slot="bottom"> -->
       <ion-tab-bar>
         <ion-tab-button tab="tab1" href="/tabs/tab1" @click="select(0)">
           <!-- <ion-icon :icon="selectedTab == 0 ? bowlingBall : bowlingBallOutline"/> -->
